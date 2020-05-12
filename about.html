@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha256-/ykJw/wDxMa0AQhHDYfuMEwVb4JHMx9h4jD4XvHqVzU="
+      crossorigin="anonymous"
+    />
+
+    <style type="text/css">
+      html {
+        background: url(weather.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      body {
+        background: transparent;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 418px;
+        height: 100vh;
+      }
+      .container-wrapper {
+        background: rgba(255, 255, 255, 0.9);
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .text {
+        font-size: 18px;
+      }
+      .links{
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+      }
+      .links a{
+          color: black;
+          margin: 0 30px;
+      }
+      .links a:hover{
+          color: rgb(69, 68, 68);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-wrapper">
+        <div class="title">About this app</div>
+        <div class="about-text">
+          <p>
+            This weather web application is a simple one which uses the API request from a website called <em>openweathermap.org</em><div class=""></div>
+          </p>
+        </div>
+        <div class="about-technologies">
+            <p><strong>Used technologies:</strong></p>
+            <p>PHP, HTML, CSS, Bootstrap, API</p>
+        </div>
+        <div class="links">
+            <a href="http://butcosoft.com/apps/weather-api/" title="See Project">
+                <i class="fas fa-arrow-circle-right fa-3x"></i>
+            </a>
+            <a href="https://github.com/butco/Weather-API" title="Github"
+                target="_blank"><i class="fab fa-github fa-3x"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js"
+      integrity="sha256-oKpAiD7qu3bXrWRVxnXLV1h7FlNV+p5YJBIr8LOCFYw="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
